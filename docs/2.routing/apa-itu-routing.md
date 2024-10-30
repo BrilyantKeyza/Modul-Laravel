@@ -47,9 +47,9 @@ Dalam contoh di atas:
 
 Laravel memungkinkan Anda untuk mengarahkan rute ke metode dalam controller untuk mengelola logika bisnis yang lebih kompleks.
 ```
-`use App\Http\Controllers\UserController;
+use App\Http\Controllers\UserController;
 
-Route::get('/user/{id}', [UserController::class, 'show']);` 
+Route::get('/user/{id}', [UserController::class, 'show']);
 ```
 Di sini, permintaan `GET` ke `/user/{id}` akan diteruskan ke metode `show` dalam `UserController`.
 
@@ -59,15 +59,9 @@ Laravel memungkinkan pengelompokan rute untuk mengaplikasikan atribut bersama se
 
 
 ```
-`Route::middleware(['auth'])->group(function () {
-    Route::get('/dashboard', function () {
-        // Only accessible for authenticated users
-    });
-
-    Route::get('/account', function () {
-        // Only accessible for authenticated users
-    });
-});` 
+use App\Http\Controllers\OrderController;
+ 
+Route::resource('orders', OrderController::class);
 ```
 #### Kesimpulan
 

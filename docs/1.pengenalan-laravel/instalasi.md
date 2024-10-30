@@ -115,6 +115,12 @@ Anda juga bisa menginstal Laravel menggunakan Laravel Installer, yang memungkink
     cd nama-proyek-anda
     php artisan serve
     ```
+    Jika sudah mengetik **php artisan serve** pada terminal
+
+    **![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdRixaE2_peX_RHy3dNvJQs-uYh4FmX507dm1Mv-H9CXUpXqFhZ-eqKzeI_UIZuGBHXDcXaNleht7AWTfEStDIqwWj_0sntfhu0qoCEXaj_RlXPn0jjOBB6SMk8k2mVYAO7TK8iIUrlym6TvLWuzZxDL9Ad?key=d3s-vJLBsYtwvRvGfZhdnw)**
+
+    Setelah kita membuka url tersebut, tampilan yang akan muncul adalah sebagai berikut :
+    **![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeq1AhiCHqFn6e6hxGD--vCtyUBvKGFUNtrN8CXm5vM6GEfcPc0jf_rBLWRd2riPEDPpGNzln-UKt30o9djN4gCsMG9biic7Tvjicbg6YWmf04Y0eS8KqTGI9OMvweHRWSyAqCpLDU-pTjD2M4XCs3gysYZ?key=d3s-vJLBsYtwvRvGfZhdnw)**
     
 
 ### Kesimpulan
